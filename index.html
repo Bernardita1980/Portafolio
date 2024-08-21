@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/Css/styles.css">
+  <title>Portafolio</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid ModNavbar">
+      <h2 class="LogoNav">PeterParker</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ulPosicion">
+          <li class="nav-item ">
+            <a class="nav-link active text-black desplazar " aria-current="page" href="#Central">Inicio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black desplazar" href="#Subtitulo">Mis habilidades</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-blank desplazar" href="#Proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-blank desplazar" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="container-fluid ">
+    <div class="Central row">
+        <div class="BoxCentral">
+          <img class=" BoxCentralImg  col-sm-12 col-md-6" src="assets/Img/imgCentral.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-6 BoxText">
+          <h3 class="BoxText__Titulo">Soy Peter Parker</h3>
+          <h4 class="BoxText__subtitulo">Desarrollador FrontEnd</h4>
+          <p class="BoxText__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae iusto quibusdam qui harum ea sit incidunt temporibus labore voluptates provident? Odit suscipit quia, dolor in fugit aliquam. Natus, libero officiis.</p>
+          <div id="Central">
+          <button class="ButtonSubmit" type="submit p-4">Contactame</button>
+          </div>
+        </div>
+        <div>
+      </header>
+
+    <section>
+      <div id="Subtitulo" >
+        <h3 class="SubtitulosCentrales">Mis habilidades</h3>
+      </div>
+    <div class="container Logos">
+      <div class="row row-cols-sm-12 row-cols-md-8">
+        <div class="col"><img src="assets/Img/logoHtml.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoCss.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoSass.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoBootstrap.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoGit.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logogithub.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoJS.jpg" alt=""></div>
+        <div class="col"><img src="assets/Img/logoVui.jpg" alt=""></div>
+      </div>
+    </div>
+  </section>
+  
+    
+      <div id="Proyectos">
+      <h3 class="SubtitulosCentrales">Mis Proyectos</h3>
+      </div>
+  <section class=" contenedorMettCoffee mx-auto">
+      <div class="row mb-3">
+        <div class="col-sm-12 col-md-6 col-lg-3"><img class="ImgMettCoffee" src="assets/Img/meetcoffee.png" alt=""><p>Meet & Coffee</p></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><img class="ImgMettCoffee" src="assets/Img/meetcoffee.png" alt=""><p>Meet & Coffee</p></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><img class="ImgMettCoffee" src="assets/Img/meetcoffee.png" alt=""><p>Meet & Coffee</p></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><img class="ImgMettCoffee" src="assets/Img/meetcoffee.png" alt=""><p>Meet & Coffee</p></div>
+      </div>
+    </section>
+
+   
+      <div id="contacto">
+        <h3 class="SubtitulosCentrales">Contactame</h3>
+      </div>
+      <Section class="container BloqueContacto">
+      <div class="row mx-auto">
+        <form class="Formulario col-sm-12 col-md-6 ">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" name="name">
+            </div>
+            <div class="colcol-sm-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Apellido" name="name">
+            </div>
+          </div>
+              <input type="text" class="form-control" placeholder="Tú Email" name="email">
+              <textarea class="form-control" rows="5" id="comment" placeholder="Escribe tú mensaje"  name="text"></textarea>
+              <div >
+              <button class="ButtonSubmit " type="submit p-4">Enviar</button>
+              </div>
+        </form>
+        <div class="col-sm-12 col-md-6">
+          <i class="fa-solid fa-phone"></i><p></i>+56879678546</p>
+          <i class="fa-solid fa-envelope"></i><p>tuemail@gmail.com</p>
+          <i class="fa-brands fa-linkedin"></i><p>tulinkedin</p>
+          <i class="fa-brands fa-github"></i><p>Tú Github</p>
+          <i class="fa-brands fa-instagram"></i><p>tuInstagram</p>
+        </div>
+        </div>
+      </section>
+      
+    
+    <script  src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  
+  </body>
+  </html>

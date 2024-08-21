@@ -1,0 +1,30 @@
+
+@import'../abstracts/variables';
+
+.BoxText{
+    color: $color1;
+    height: 40%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    &__Titulo{
+        display:flex;
+        flex-direction: row;
+        color: $color1;
+        font-family:$font1;
+
+    }
+
+    &__subtitulo{
+        display: flex;
+        flex-direction: row;
+        color: $color2;
+        font-family:$font1;
+    }
+
+    &__parrafo{
+        display: contents;
+   
+    }
+}

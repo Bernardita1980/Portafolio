@@ -1,0 +1,118 @@
+/* abstracts*/
+/*Base*/
+.SubtitulosCentrales {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  color: #1D3557;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+/*components*/
+.ButtonSubmit {
+  background-color: #1D3557;
+  color: #fff;
+  padding: 0.5rem 5rem;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.BoxText {
+  color: #1D3557;
+  height: 40%;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.BoxText__Titulo {
+  display: flex;
+  flex-direction: row;
+  color: #1D3557;
+  font-family: "Ubuntu", sans-serif;
+}
+.BoxText__subtitulo {
+  display: flex;
+  flex-direction: row;
+  color: #4585BA;
+  font-family: "Ubuntu", sans-serif;
+}
+.BoxText__parrafo {
+  display: contents;
+}
+
+/*Layout*/
+.LogoNav {
+  color: #1D3557;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/*themes*/
+.BoxCentral {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+.BoxCentral__img {
+  width: 90%;
+  height: 60%;
+  display: flex;
+}
+
+.Logos {
+  margin-bottom: 70px;
+  margin-bottom: 150px;
+}
+
+.SubtitulosCentrales {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  color: #1D3557;
+}
+
+.contenedorMettCoffee {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ImgMettCoffee {
+  width: 80%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.BloqueContacto {
+  width: 100%;
+}
+
+boby {
+  background-color: #D7E9F9;
+}
+
+.contenedor {
+  display: flex;
+  width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .ImgMettCoffee {
+    height: 25vh;
+    width: 100%;
+  }
+  .ButtonSubmit {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
